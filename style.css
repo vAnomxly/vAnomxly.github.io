@@ -1,0 +1,176 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    background-color:grey;
+}
+#titlediv{
+    display:flex;
+    flex-direction: column;
+    position:relative;
+    top:300px;
+    padding: 0px;
+    display: inline-block;
+    margin:auto;
+}
+#center{
+    display:flex;
+    flex-direction: column;
+}
+#name{
+    padding-top:10px;
+    color:White;
+    font-family: 'Courier New', monospace;
+    text-align: center;
+    font-size: 30px;
+}
+#title{
+    border-width: 5px;
+    border-style: dashed;
+    color:White;
+    font-family: 'Courier New', monospace;
+    font-size: 50px;
+    text-align: center;
+    
+    
+
+}
+#buttondiv{
+    position:relative;
+    top:310px;
+    display:block;
+    min-width: 200px;
+    margin:auto;
+}
+
+.button{
+    font-family: 'Courier New';
+    padding:0px;
+    border-radius:5%;
+    border:solid white;
+    border-width: 3px;
+    color:white;
+    background-color:darkslategrey;
+    font-size:75px;
+
+
+    
+}
+
+.button:hover{
+
+    animation:pretty 30s infinite;
+    font-size:85px;
+    
+    
+    
+    
+    
+}
+
+@keyframes pretty {
+    0%   {background-color:red;}
+    15%  {background-color:orange;}
+    30%  {background-color:yellow;}
+    45%  {background-color:green; }
+    70% {background-color:blue;}
+    85% {background-color:purple;}
+    100% {background-color:red; }
+}
+
+#menudiv{
+    height:40px;
+    background-color: darkslategray;
+    display:flex;
+    flex-direction: row;
+    margin: 0px 0px 20px 0px;
+    padding:10px 10px 10px 10px;
+}
+#menu{
+    color:white;
+    margin:0px 20% 0px 5px;
+}
+.menusub{
+    position: relative;
+    top:10px;
+    right:50px;
+    margin:0px auto;
+}
+.menusub a{
+    margin:0px 20px;
+    position:absolute;
+    font-size:20px;
+    color:white;
+    text-decoration: none;
+}
+.menusub a:hover{
+    padding:3px;
+    border-radius: 10%;
+    border:2px solid white;
+    font-size:16px;
+    color:white;
+    text-decoration: none;
+}
+#container{
+    border:2px solid black;
+
+}
+.div1{
+    display: flex;
+    flex-wrap: wrap;
+    width:100%;
+    height: 800px;
+    
+    
+     
+}
+.box{
+    display: inline;
+    width: 25%;
+    height: 250px;
+    background-color: white;
+    padding: 40px 0px;
+    border-radius: 5%;
+    resize:horizontal;
+    min-width: 220px;
+    border:4px  solid black;
+    margin: 10px auto 10px auto;
+    
+}
+.box a{
+    margin:-165px auto;
+    position: relative;
+    top:125px;
+    height:330px;
+    display:block;
+    z-index: 1;
+    border-radius: 3%;
+}
+
+.box:hover{
+    width: 25%;
+    height: 250px;
+    background-color: white;
+    margin: 5px auto 5px auto;
+    padding: 40px 0px;
+    border-radius: 5%;
+    border:4px solid yellow;
+    
+}
+.subtitles{
+    color:black;
+    font-family: Verdana, sans-serif;
+    font-size:20px;
+    
+}
+.prac{
+    margin-bottom:-20px;
+    border-bottom:3px solid black;
+    border-radius: 3% 3% 0% 0%;
+    position:relative;
+    bottom:40px;
+    height:220px;
+    width:100%;
+}
+
