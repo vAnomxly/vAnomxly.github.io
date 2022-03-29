@@ -89,12 +89,12 @@ body{
 }
 #menu{
     color:white;
-    margin:0px 20% 0px 5px;
+    margin:0px 15% 0px 5px;
 }
 .menusub{
     position: relative;
     top:10px;
-    right:40px;
+    right:60px;
     margin:0px auto;
 }
 .menusub a{
