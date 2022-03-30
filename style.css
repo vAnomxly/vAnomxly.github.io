@@ -93,14 +93,14 @@ body{
 }
 .menusub{
     position: relative;
-    top:10px;
-    right:80px;
+    top:14px;
+    right:65px;
     margin:0px auto;
 }
 .menusub a{
-    margin:0px 20px;
+    margin:0px 15px;
     position:absolute;
-    font-size:20px;
+    font-size:18px;
     color:white;
     text-decoration: none;
 }
