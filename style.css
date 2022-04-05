@@ -18,7 +18,7 @@ body{
     display:flex;
     flex-direction: column;
 }
-#name{
+.name{
     padding-top:10px;
     color:White;
     font-family: 'Courier New', monospace;
