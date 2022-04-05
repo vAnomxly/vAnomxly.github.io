@@ -9,7 +9,7 @@ body{
     display:flex;
     flex-direction: column;
     position:relative;
-    top:300px;
+    top:230px;
     padding: 0px;
     display: inline-block;
     margin:auto;
@@ -38,7 +38,7 @@ body{
 }
 #buttondiv{
     position:relative;
-    top:310px;
+    top:240px;
     display:block;
     min-width: 200px;
     margin:auto;
